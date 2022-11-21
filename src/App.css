@@ -1,0 +1,39 @@
+#root {
+
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  background-color: var(--secundaryColor);
+}
+
+:root{
+  --primariColor: #fbcb1c;
+  --secundaryColor: #3361a5;
+  --darkColor: #312e31;
+}
+
+.btn{
+  margin: 10px
+}
+
+.bg-navbar{
+  background-color: var(--primariColor);
+}
+.img-logo{
+  width: 150px;
+}
+
+.card {
+  padding: 1em;
+  width: 200px;
+  height: 200px;
+}
+
+
+.container-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
